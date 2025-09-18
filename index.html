@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakesh Barik - Portfolio | Aspiring Developer</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Rakesh Barik - 18-year-old aspiring developer, student, and tech enthusiast. Showcasing web development projects including AllTools and modern responsive designs.">
+    <meta name="keywords" content="Rakesh Barik, web developer, student, portfolio, HTML, CSS, JavaScript, AllTools, responsive design">
+    <meta name="author" content="Rakesh Barik">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Rakesh Barik - Portfolio | Aspiring Developer">
+    <meta property="og:description" content="Aspiring Developer | Student | Tech Enthusiast - Showcasing modern web development projects and skills">
+    <meta property="og:image" content="assets/profile.jpg">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Rakesh Barik Portfolio">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rakesh Barik - Portfolio">
+    <meta name="twitter:description" content="Aspiring Developer | Student | Tech Enthusiast">
+    <meta name="twitter:image" content="assets/profile.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/profile.jpg">
+    <link rel="apple-touch-icon" href="assets/profile.jpg">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/profile.jpg" alt="Rakesh Barik" class="nav-profile-pic">
+                <span>Rakesh Barik</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="assets/profile.jpg" alt="Rakesh Barik" class="profile-pic">
+                </div>
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Rakesh Barik</span></h1>
+                <div class="hero-subtitle">
+                    <span id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    18-year-old passionate developer creating modern web applications and mobile apps
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="assets/resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hi, I'm Rakesh Barik, an 18-year-old student passionate about technology, coding, and problem-solving. 
+                        I enjoy building modern web applications and mobile apps that are simple, fast, and user-friendly. 
+                        Over the past year, I've created projects like AllTools, a feature-rich utility platform that combines 
+                        multiple tools into one responsive web app.
+                    </p>
+                    <p>
+                        I'm fluent in English, Bengali, Oriya, and Hindi, which helps me connect with people across different 
+                        cultures and communities. My skills include HTML5, CSS3, JavaScript, and a growing knowledge of app 
+                        and website development.
+                    </p>
+                    <p>
+                        My future goal is to pursue IIT and become a Software Engineer, contributing to impactful solutions 
+                        in the world of technology.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>18</h3>
+                            <p>Years Old</p>
+                        </div>
+                        <div class="stat">
+                            <h3>4</h3>
+                            <p>Languages</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-img-container">
+                        <img src="assets/about-image.jpg" alt="Rakesh Barik">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup and modern HTML standards</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="90"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Responsive design and modern styling</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive web applications and DOM manipulation</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>App Development</h3>
+                    <p>Mobile application development and design</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="75"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Full-stack web development solutions</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Development Tools</h3>
+                    <p>Version control, debugging, and optimization</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="70"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">My recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/alltools-1.png" alt="AllTools Screenshot 1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://rakeshbarik123.github.io/AllTools/" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AllTools</h3>
+                        <p>A comprehensive, fully responsive web application featuring 13 powerful utility tools built with modern HTML5, CSS3, and JavaScript. All tools run entirely client-side for maximum privacy and performance.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-screenshots">
+                            <img src="assets/alltools-2.png" alt="AllTools Screenshot 2" class="screenshot">
+                            <img src="assets/alltools-3.png" alt="AllTools Screenshot 3" class="screenshot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Resume</h2>
+                <p class="section-subtitle">Download my resume</p>
+            </div>
+            <div class="resume-content">
+                <div class="resume-preview">
+                    <div class="resume-card">
+                        <div class="resume-header">
+                            <img src="assets/profile.jpg" alt="Rakesh Barik" class="resume-pic">
+                            <div class="resume-info">
+                                <h3>Rakesh Barik</h3>
+                                <p>Aspiring Developer | Student | Tech Enthusiast</p>
+                                <p>Age: 18</p>
+                                <p>Email: barikrakesh310@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="resume-details">
+                            <h4>Skills</h4>
+                            <p>HTML5, CSS3, JavaScript, App Development, Web Development</p>
+                            <h4>Languages</h4>
+                            <p>English, Bengali, Oriya, Hindi</p>
+                            <h4>Goal</h4>
+                            <p>Pursue IIT and become a Software Engineer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-download">
+                    <a href="assets/resume.pdf" class="btn btn-primary btn-large" download>
+                        <i class="fas fa-download"></i>
+                        Download Resume (PDF)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-subtitle">Let's get in touch</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>barikrakesh310@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p>rakeshbarik123</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:barikrakesh310@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/rakeshbarik123" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Rakesh Barik | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
